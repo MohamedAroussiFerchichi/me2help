@@ -55,6 +55,16 @@ Create a `.env` file inside `me2helpAi/` (optional — defaults shown):
 PORT=5001
 ```
 
+Download the pre-trained emotion model and place it in the `me2helpAi/models/` folder:
+
+```
+me2helpAi/
+└── models/
+    └── emotion_classifier_pipe_lr_03_june_2021.pkl   ← place the model file here
+```
+
+> The model file must be named exactly `emotion_classifier_pipe_lr_03_june_2021.pkl`.
+
 Start the service:
 
 ```bash
