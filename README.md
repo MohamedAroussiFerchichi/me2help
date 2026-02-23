@@ -115,9 +115,10 @@ back_end_API_URL=http://localhost:5000
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-Start the development server:
+Install axios explicitly, then start the development server:
 
 ```bash
+npm install axios
 npm run dev
 ```
 
